@@ -105,13 +105,43 @@
             </section>
             <section>
                 <h2>Restklassenring</h2>
-                <p><code>&Zopf;<sub>2</sub>[x]<sub>x<sup>2</sup>+x+1</sub> = <span class="fragment fade-up">{0, 1, x, x+1}</span></code></p>
-                <img src="img/restklassenring.png" alt="">
+                <p><code>&Zopf;<sub>2</sub>[x]<sub>x<sup>2</sup>+x+1</sub> = <span class="fragment fade-up">{0, 1, x,
+                            x+1}</span></code></p>
+                <img class="fragment fade-up" src="img/restklassenring.png" alt="">
+                <p class="fragment fade-up">Dieser Restklassenring ist ein <strong>endlicher Körper</strong>!</p>
             </section>
             <section>
-                <h2>Zyklischer Code</h2>
+                <h2>Zyklische Redundanzprüfung</h2>
+                <h3>Cyclic Redundancy Check</h3>
+                <p>Wird unter anderem verwendet bei Übertragungen per <strong>Ethernet</strong> und
+                    <strong>Festplatten</strong>, um zufällige Fehler zu erkennen.</p>
             </section>
-            <section>Ressourcen</section>
+            <section>
+                <h2>Zyklische Redundanzprüfung</h2>
+                <h3>Cyclic Redundancy Check</h3>
+                <p><strong>Generatorpolynom:</strong> <code>110101</code> | <strong>Rahmen:</strong> <code>11011</code>
+                </p>
+                <ol>
+                    <li class="fragment fade-up">Rahmen rechts mit Nullen auffüllen gleich dem Grad des
+                        Generatorenpolynoms. <code>1101100000</code></li>
+                    <li class="fragment fade-up"><code>1101100000 : 110101 => Rest 00101</code>, <br />den Rest dem
+                        ursprünglichen Rahmen anhängen: <code>1101100101</code></li>
+                    <li class="fragment fade-up"><code>1101100101 : 110101 => Rest 0 ?</code></li>
+                </ol>
+            </section>
+            <section>
+                <h2>Ressourcen</h2>
+                <ul>
+                    <li>G. + S. Teschl, Mathematik für Informatiker, Bd. 1, Kapitel 4</li>
+                    <li>E. Weitz, Konkrete Mathematik (nicht nur) für Informatiker, Kapitel 57ff. (inkl. Videos)</li>
+                </ul>
+                <br>
+                <p><strong>YouTube Playlists zum Thema abstrakte Algebra</strong></p>
+                <ul>
+                    <li>[DE] Markus a.k.a. Math-Intuition, «Algebra», http://bit.ly/34QGgoC</li>
+                    <li>[EN] Socratica, «Abstract Algebra», http://bit.ly/2YhDqGX</li>
+                </ul>
+            </section>
         </div>
     </div>
 

@@ -15,6 +15,10 @@
     height: 100vh;
 }
 
+.reveal h2 {
+    font-size: 4rem;
+}
+
 .reveal h3 {
     font-style: italic;
     font-size: 0.7em;
