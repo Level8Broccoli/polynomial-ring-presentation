@@ -12,6 +12,10 @@
     font-family: 'Lora', serif !important;
 }
 
+.start {
+    height: 100vh;
+}
+
 .reveal h3 {
     font-style: italic;
     font-size: 0.7em;
@@ -23,7 +27,11 @@ code {
 }
 
 .bottom {
-    padding-top: 10vh;
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
     font-size: .5em;
 }
 
