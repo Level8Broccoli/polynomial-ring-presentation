@@ -41,20 +41,3 @@ code {
 .red {
     color: red;
 }
-
-th, td {
-    text-align: center !important;
-    font-family: 'Fira Code', monospace !important;
-}
-
-.left-column tr :first-child {
-    border-right: 1px solid black;
-    font-weight: bold;
-}
-
-.flex {
-    display: flex;
-}
-.flex table {
-    margin: 0 5px;
-}
