@@ -12,6 +12,11 @@
     font-family: 'Lora', serif !important;
 }
 
+.reveal h3 {
+    font-style: italic;
+    font-size: 0.7em;
+}
+
 code {
     font-family: 'Fira Code', monospace !important;
     color: darkgray;
@@ -24,4 +29,8 @@ code {
 
 .left {
     text-align: left;
+}
+
+.red {
+    color: red;
 }
