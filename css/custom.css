@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6,
+.reveal p
+ {
+    font-family: 'Lora', serif !important;
+}
+
+code {
+    font-family: 'Fira Code', monospace !important;
+    color: darkgray;
+}
+
+.bottom {
+    padding-top: 10vh;
+    font-size: .5em;
+}
+
+.left {
+    text-align: left;
+}

@@ -1,3 +1,108 @@
-Hier folgt die Präsentation. 
+<!doctype html>
+<html>
 
-Hello Chantale ;-)
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Polynomring</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/serif.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <small>Diskrete Mathematik | Zahlentheorie</small>
+                <br />
+                <h2>
+                    Polynomring<br />
+                    <code>&Kopf;[x]</code>
+                </h2>
+                <p class="bottom"><em>Chantale Gihara | Oliver Bucher</em></p>
+            </section>
+            <section>
+                <h2>Inhalt</h2>
+                <ul>
+                    <li>Polynome</li>
+                    <li>Polynomdivison</li>
+                    <li>Modulo</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Polynome</h2>
+                <p class="fragment fade-up">Grad eines Polynoms?</p>
+                <p class="fragment fade-up">Koeffizienten eines Polynoms?</p>
+                <img src="img/polynom.png" alt="">
+            </section>
+            <section>
+                <h2>Polynomring</h2>
+                <p><em>Schreibweise</em></p>
+                <p class="left"><code>&Kopf;[x]</code> : <span class="fragment fade-up">Polynome über einem Körper &Kopf;</span></p>
+                <p class="left fragment fade-up"><code>&Qopf;[x]</code> : Polynome über den rationalen Zahlen</p>
+                <p class="left fragment fade-up"><code>&Ropf;[x]</code> : Polynome über den reellen Zahlen</p>
+                <p class="left fragment fade-up"><code>&Zopf;<sub>p</sub>[x]</code> : Polynome über einen Restklassenring &Zopf;<sub>p</sub></p>
+            </section>
+            <section>
+                <h2>Polynomdivision</h2>
+                Refresher
+            </section>
+            <section>
+                <h2>Restklassenring <code>K[x]<sub>m(x)</sub></code></h2>
+                Kongruenz
+            </section>
+            <section>
+                <h2>Zyklischer Code</h2>
+            </section>
+            <section>Ressourcen</section>
+        </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // More info about config & dependencies:
+        // - https://github.com/hakimel/reveal.js#configuration
+        // - https://github.com/hakimel/reveal.js#dependencies
+        Reveal.initialize({
+            controls: false,
+            progress: true,
+            center: false,
+            hash: true,
+            fragmentInURL: true,
+            dependencies: [{
+                    src: 'plugin/markdown/marked.js'
+                },
+                {
+                    src: 'plugin/markdown/markdown.js'
+                },
+                {
+                    src: 'plugin/notes/notes.js',
+                    async: true
+                },
+                {
+                    src: 'plugin/highlight/highlight.js',
+                    async: true
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>
